@@ -1,0 +1,30 @@
+header{
+	margin-top: 20px;
+	
+}
+.logoknut{
+	width: 65px;
+	float: right;
+	margin-right: 20px;
+}
+.tjejlog{
+	width: 90px;
+	float: left;
+	margin-left: 20px;
+}
+.headertxt{
+	color: #FF0033;
+	margin-left: 140px;
+	font-size: 60px;
+}
+.red{
+	border: dotted red 1px;
+}
+.btn{
+	margin:2px;
+}
+.btn-color{
+	background-color: #FF0033;
+	color:white;
+	
+}
