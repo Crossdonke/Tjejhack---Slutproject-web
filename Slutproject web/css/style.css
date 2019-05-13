@@ -3,7 +3,7 @@ header{
 	
 }
 :root{
-	--allmänfärg:#FF0033;
+	--allmänfärg:#E80C94;
 	--andrahandsfärg:#666666;
 }
 .logoknut{
@@ -17,7 +17,7 @@ header{
 	margin-left: 20px;
 }
 .headertxt{
-	color: #FF0033;
+	color: var(--allmänfärg);
 	margin-left: 140px;
 	font-size: 60px;
 }
@@ -41,6 +41,20 @@ header{
 .slidepic{
 	width: 200px;
 	float: right;
+}
+.hamburg{
+	
+}
+.footer1{
+	width: 100%;
+	background-color:var(--andrahandsfärg);
+	height: 110px;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 
