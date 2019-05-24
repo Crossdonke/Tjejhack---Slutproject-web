@@ -37,7 +37,7 @@
         <a class="btn btn-color" href="Bildgalleri.html"><b class="menytxt">Bildgalleri</b></a>
       </li>
       <li class="nav-item active">
-        <a class="btn btn-color" href="spelet.html"><b class="menytxt">Ett Spel</b></a>
+        <a class="btn btn-color" href="spelet.html"><b class="menytxt">En Quiz</b></a>
       </li>
       <li class="nav-item active">
         <a class="btn btn-color" href="kontaktinfo.html"><b class="menytxt">Kontaktinformation</b></a>
@@ -47,6 +47,36 @@
   </div>
 </nav>
 </div>
+<section>
+<h1 class="text"><b>Testa denna snabba Quiz!</b></h1>
+  <form id="quiz" name="quiz">
+          
+<p class="frågetext"><b>1. Programspråket Python har fått sitt namn från...</b></p>
+<input id="flerval" type="radio" name="fråga1" value="Ormen">Ormen<br>
+<input id="flerval" type="radio" name="fråga1" value="Monthy Python">Monthy Python<br>
+<input id="flerval" type="radio" name="fråga1" value="Lukten">Lukten<br>
+
+<p class="frågetext"><b>2. Vilket bibliotek använder man när man ritar med Python?</b></p>
+<input id="flerval" type="radio" name="fråga2" value="Turtle">Turtle<br>
+<input id="flerval" type="radio" name="fråga2" value="Paint">Paint<br>
+<input id="flerval" type="radio" name="fråga2" value="Draw">Draw<br>
+<p class="frågetext"><b>3. Vilken typ av programmering gör man med Python?</b></p>
+<input id="flerval" type="radio" name="fråga3" value="Blockprogrammering">Blockprogrammering<br>
+<input id="flerval" type="radio" name="fråga3" value="Textprogrammering">Textprogrammering<br>
+<input id="flerval" type="radio" name="fråga3" value="Analog Programmering">Analog programmering<br>
+
+
+<br><br>
+<input class="btn btn-primary" id="button" type="button" value="Rätta alla frågor" onclick="kollasvar()">
+
+
+        </form>
+        <div id="inskickatsvar">
+        <br>
+          <p id="antalratt"></p>
+
+        </div>
+</section>
 <footer>
   <div class="footer1">
     &copy; 2019<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script>, Tjejhack
@@ -59,5 +89,6 @@ Casper Enarsson
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="web.js"></script>
   </body>
 </html>
