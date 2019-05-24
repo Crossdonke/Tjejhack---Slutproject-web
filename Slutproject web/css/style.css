@@ -61,14 +61,13 @@ body {
 .slidepic{
 	width: 100%;
 	float: right;
+	margin-bottom: 65px;
 }
 .text{
 	margin-left: 18px;
 	font-size: 30px;
 }
-.menytxt{
-	font-size: 20;
-}
+
 .video{
 	position: center;
 }
@@ -187,7 +186,26 @@ body {
 	height: 100%;
 }
 .frågetext{
-	font-size: 120%;
+	font-size: 25px;
+}
+.artikel{
+	font-size:40px; ;
+	font-family: 'Open Sans Condensed';
+}
+.quizknapp{
+	font-family: 'Open Sans Condensed';
+	font-size: 30px;
+}
+.mentorbild{
+	width: 40%;
+	margin:15px;
+	margin-left: 30px;
+}
+.kontakttext{
+margin-left: 40px;
+}
+.kontaktmentor{
+	margin-left:40px;
 }
 
 
